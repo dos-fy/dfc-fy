@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html charset="UTF-8" lang="de-DE"><head>
+<meta http-equiv="content-type" content="text/html; charset=windows-1252">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<link rel="icon" href="file:///favicon-48x48.cbbd161b.png">
+
+<title>draft2 dos-ek-details</title>
+
+<script type="text/javascript">
+alert(getElementById("tmpl"));
+
+function toclip() {
+let ta = document.getElementById("svclip");
+alert(ta);
+var ns = new XMLSerializer();
+var dt = ns.serializeToString(document);
+alert(dt.length);
+' let ta = getElementById('svclip');
+}
+
+</script>
+
+<style>
+details {
+  
+  font:
+    16px "Open Sans",
+    Calibri,
+    sans-serif;
+   margin: 6px,6px,6px,16px;
+   line-height: 200%;
+   display: inline;
+}
+
+details > summary {
+  padding: 2px 6px;
+  display: inline;
+  background-color: #ddd;
+  border: none;
+  box-shadow: 3px 3px 4px black;
+  cursor: pointer;
+  list-style: none;
+}
+
+details > p {
+  border-radius: 0 0 10px 10px;
+  background-color: #ddd;
+  padding: 2px 6px;
+  margin: 0;
+  box-shadow: 3px 3px 4px black;
+  display: inline
+}
+
+details[open] > summary {
+  
+}
+
+summary.red {background-color: red;}
+summary.yell {background-color: yellow;}
+
+
+</style>
+</head>
+
+<body>
+
+<details contenteditable="false">
+  <summary> Shop-List </summary>
+<br><br>
+<input type="checkbox" name="Shops"> Norma  <br>
+<input type="checkbox" name="Shops" checked="checked"> Tegut <br>
+<input type="checkbox" name="Shops" checked="checked"> REWE <br>
+<input type="checkbox" name="Shops"> Überall <br>
+<input type="checkbox" name="Shops"> Neu <br>
+<input type="checkbox" name="Shops"> Neu <br>
+</details>
+
+<button onclick="javascript:let nc=getElementById('tmpl'); let nn=nc.cloneNode(true); nn.id='';this.insertAdjacentElement('afterend', nn);" contenteditable="false"> Neuer Satz </button>
+
+<details id="">
+  <summary class="red" contenteditable="true">Kartoffeln1</summary>
+  <div style="width: 250px; display: inline;"><br><button onclick="javascript:this.parentElement.parentElement.firstElementChild.className='red';" style="display: inline; background-color: red;" contenteditable="false">Rot</button>
+
+<button onclick="javascript:this.parentElement.parentElement.firstElementChild.className='yell';" style="display: inline; background-color: yellow;" contenteditable="false">Gelb</button>
+
+<button onclick="javascript:this.parentElement.parentElement.firstElementChild.className='';" style="display: inline; background-color: #ddd;
+" contenteditable="false">Kein Bedarf</button>
+  <br>
+<p contenteditable="true">"Back- u. Grill-Kartoffeln", SEHR GROß!!<br> Quelle(n): Tegut, REWE, Kaufland, NORMA, Ebi/Ebl<br></p>
+</div></details>
+
+
+<details id="">
+  <summary class="" contenteditable="true">  Milch  </summary>
+  <div style="width: 250px; display: inline;"><br><button onclick="javascript:this.parentElement.parentElement.firstElementChild.className='red';" style="display: inline; background-color: red;" contenteditable="false">Rot</button>
+
+<button onclick="javascript:this.parentElement.parentElement.firstElementChild.className='yell';" style="display: inline; background-color: yellow;" contenteditable="false">Gelb</button>
+
+<button onclick="javascript:this.parentElement.parentElement.firstElementChild.className='';" style="display: inline; background-color: #ddd;
+" contenteditable="false">Kein Bedarf</button>
+  <br>
+<p contenteditable="true">
+
+Lactosefreie "Frische Vollmilch", 3,5% Fett oder höher,<br>
+    Menge:          2-4 liter<br> Quelle(n): Tegut, REWE, Kaufland, NICHT: NORMA<br>
+Marken: minus-L, LAC, Landliebe, K-Free<br>
+   Beschreibungen u. Hinweise: <br>
+Bild per Link:
+  </p>
+</div></details>
+
+<details id="tmpl">
+  <summary class="red" contenteditable="true">  Milch  </summary>
+  <div style="width: 250px; display: inline;"><br><button onclick="javascript:this.parentElement.parentElement.firstElementChild.className='red';" style="display: inline; background-color: red;" contenteditable="false">Rot</button>
+
+<button onclick="javascript:this.parentElement.parentElement.firstElementChild.className='yell';" style="display: inline; background-color: yellow;" contenteditable="false">Gelb</button>
+
+<button onclick="javascript:this.parentElement.parentElement.firstElementChild.className='';" style="display: inline; background-color: #ddd;
+" contenteditable="false">Kein Bedarf</button>
+  <br>
+<p contenteditable="true">
+
+Lactosefreie "Frische Vollmilch", 3,5% Fett oder höher,<br>
+    Menge:          2-4 liter<br> Quelle(n): Tegut, REWE, Kaufland, NICHT: NORMA<br>
+Marken: minus-L, LAC, Landliebe, K-Free<br>
+   Beschreibungen u. Hinweise: <br>
+Bild per Link:
+  </p>
+</div></details>
+
+<details>
+  <summary class="red" contenteditable="true">  Blutorangen  </summary>
+  <div style="width: 250px; display: inline;"><br><button onclick="javascript:this.parentElement.parentElement.firstElementChild.className='red';" style="display: inline; background-color: red;" contenteditable="false">Rot</button>
+
+<button onclick="javascript:this.parentElement.parentElement.firstElementChild.className='yell';" style="display: inline; background-color: yellow;" contenteditable="false">Gelb</button>
+
+<button onclick="javascript:this.parentElement.parentElement.firstElementChild.className='';" style="display: inline; background-color: #ddd;
+" contenteditable="false">Kein Bedarf</button>
+  <br>
+<p contenteditable="true">Menge: 1-2 Netze, bis 3 kg,<br> Quelle(n): NORMA, Tegut, REWE, Kaufland, <br></p>
+</div></details>
+
+<details>
+  <summary class="red" contenteditable="true">  Kuchen</summary>
+  <div style="width: 250px; display: inline;"><br><button onclick="javascript:this.parentElement.parentElement.firstElementChild.className='red';" style="display: inline; background-color: red;" contenteditable="false">Rot</button>
+
+<button onclick="javascript:this.parentElement.parentElement.firstElementChild.className='yell';" style="display: inline; background-color: yellow;" contenteditable="false">Gelb</button>
+
+<button onclick="javascript:this.parentElement.parentElement.firstElementChild.className='';" style="display: inline; background-color: #ddd;
+" contenteditable="false">Kein Bedarf</button>
+  <br>
+<p contenteditable="true"><br></p>
+</div></details>
+
+<details>
+  <summary class="yell" contenteditable="true">Ziggis</summary>
+  <div style="width: 250px; display: inline;"><br><button onclick="javascript:this.parentElement.parentElement.firstElementChild.className='red';" style="display: inline; background-color: red;" contenteditable="false">Rot</button>
+
+<button onclick="javascript:this.parentElement.parentElement.firstElementChild.className='yell';" style="display: inline; background-color: yellow;" contenteditable="false">Gelb</button>
+
+<button onclick="javascript:this.parentElement.parentElement.firstElementChild.className='';" style="display: inline; background-color: #ddd;
+" contenteditable="false">Kein Bedarf</button>
+  <br>
+<p contenteditable="true">
+
+P&amp;S-Filter (Player's)<br>
+    Menge:          2-4 packungen<br> Quelle(n): Tegut, ARAL-Tanke, <br></p>
+</div></details>
+
+<details>
+  <summary class="" contenteditable="true">  Tabak          RedBull-Schwarz  </summary>
+  <div style="width: 250px; display: inline;"><br><button onclick="javascript:this.parentElement.parentElement.firstElementChild.className='red';" style="display: inline; background-color: red;" contenteditable="false">Rot</button>
+
+<button onclick="javascript:this.parentElement.parentElement.firstElementChild.className='yell';" style="display: inline; background-color: yellow;" contenteditable="false">Gelb</button>
+
+<button onclick="javascript:this.parentElement.parentElement.firstElementChild.className='';" style="display: inline; background-color: #ddd;
+" contenteditable="false">Kein Bedarf</button>
+  <br>
+<p contenteditable="true">Menge:          1-2 Pack<br> Quelle(n): ARAL-Tanke (evtl. Tegut, REWE, <br>Kaufland, NORMA)<br></p>
+</div></details>
+
+
+<details>
+  <summary class="" contenteditable="true">Meharis</summary>
+  <div style="width: 250px; display: inline;"><br><button onclick="javascript:this.parentElement.parentElement.firstElementChild.className='red';" style="display: inline; background-color: red;" contenteditable="false">Rot</button>
+
+<button onclick="javascript:this.parentElement.parentElement.firstElementChild.className='yell';" style="display: inline; background-color: yellow;" contenteditable="false">Gelb</button>
+
+<button onclick="javascript:this.parentElement.parentElement.firstElementChild.className='';" style="display: inline; background-color: #ddd;
+" contenteditable="false">Kein Bedarf</button>
+  <br>
+<p contenteditable="true">Ecuador, notf. Brasil<br>Menge: 2 Pack<br> Quelle(n): ARAL-Tanke<br><br></p>
+</div></details>
+
+<details>
+  <summary class="" contenteditable="true">Brötchen1</summary>
+  <div style="width: 250px; display: inline;"><br><button onclick="javascript:this.parentElement.parentElement.firstElementChild.className='red';" style="display: inline; background-color: red;" contenteditable="false">Rot</button>
+
+<button onclick="javascript:this.parentElement.parentElement.firstElementChild.className='yell';" style="display: inline; background-color: yellow;" contenteditable="false">Gelb</button>
+
+<button onclick="javascript:this.parentElement.parentElement.firstElementChild.className='';" style="display: inline; background-color: #ddd;
+" contenteditable="false">Kein Bedarf</button>
+  <br>
+<p contenteditable="true">Einfache Weizenbrötchen Menge: 2-4 Stück<br> Quelle(n): NORMA, Bäcker, ARAL-Tanke (evtl. auch Tegut, REWE, <br>Kaufland, )<br></p>
+</div></details>
+
+<details>
+  <summary class="" contenteditable="true">1/2Hahn</summary>
+  <div style="width: 250px; display: inline;"><br><button onclick="javascript:this.parentElement.parentElement.firstElementChild.className='red';" style="display: inline; background-color: red;" contenteditable="false">Rot</button>
+
+<button onclick="javascript:this.parentElement.parentElement.firstElementChild.className='yell';" style="display: inline; background-color: yellow;" contenteditable="false">Gelb</button>
+
+<button onclick="javascript:this.parentElement.parentElement.firstElementChild.className='';" style="display: inline; background-color: #ddd;
+" contenteditable="false">Kein Bedarf</button>
+  <br>
+<p contenteditable="true">Menge:          1 <br> Quelle(n): Antonio Imbis<br></p>
+</div></details>
+
+<details>
+  <summary class="red" contenteditable="true">VIOWasser</summary>
+  <div style="width: 250px; display: inline;"><br><button onclick="javascript:this.parentElement.parentElement.firstElementChild.className='red';" style="display: inline; background-color: red;" contenteditable="false">Rot</button>
+
+<button onclick="javascript:this.parentElement.parentElement.firstElementChild.className='yell';" style="display: inline; background-color: yellow;" contenteditable="false">Gelb</button>
+
+<button onclick="javascript:this.parentElement.parentElement.firstElementChild.className='';" style="display: inline; background-color: #ddd;
+" contenteditable="false">Kein Bedarf</button>
+  <br>
+<p contenteditable="true">Still (Blau)<br>Menge: bis zu 4 6er-Träger<br> Quelle(n) Tegut, REWE, <br>Kaufland, ...<br></p>
+</div></details>
+
+<details>
+  <summary class="yell" contenteditable="true">MVSaft<br></summary>
+  <div style="width: 250px; display: inline;"><br><button onclick="javascript:this.parentElement.parentElement.firstElementChild.className='red';" style="display: inline; background-color: red;" contenteditable="false">Rot</button>
+
+<button onclick="javascript:this.parentElement.parentElement.firstElementChild.className='yell';" style="display: inline; background-color: yellow;" contenteditable="false">Gelb</button>
+
+<button onclick="javascript:this.parentElement.parentElement.firstElementChild.className='';" style="display: inline; background-color: #ddd;
+" contenteditable="false">Kein Bedarf</button>
+  <br>
+<p contenteditable="true">Menge:          1-2 6er Pack<br> Quelle(n): NORMA, notfalls Tegut, REWE, <br>Kaufland<br></p>
+</div></details>
+
+
+
+<dos-ek contenteditable="true">
+<br><br><span></span>
+</dos-ek>
+</body></html>
